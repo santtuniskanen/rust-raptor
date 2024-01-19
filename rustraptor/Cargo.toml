@@ -3,6 +3,14 @@ name = "rustraptor"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "rustraptor"
+path = "src/lib.rs"
+
+[[test]]
+name = "unit_tests"
+path = "src/tests/lib.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
